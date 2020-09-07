@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import "./App.css";
-import Counter from "./Counter";
-import Info from "./Info";
+// import Counter from "./Counter";
+// import Info from "./Info";
+import ContextSample from "./useContext";
 
 const Container = styled.div`
   display: flex;
@@ -12,8 +13,9 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
-      <Counter />
-      <Info />
+      {/* <Counter />
+      <Info /> */}
+      <ContextSample />
     </Container>
   );
 }
