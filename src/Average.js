@@ -20,6 +20,7 @@ const Average = () => {
     setNumber("");
   };
 
+  // 이거안해주고 getAverage(list) 함수로 값 가져오면 input값이 바뀔때도 getAverage 호출해서 비효율적
   const avg = useMemo(() => getAverage(list), [list]);
 
   return (
