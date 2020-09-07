@@ -23,3 +23,7 @@ useReducer는 useState 보다 컴포넌트에서 더 다양한 상황에 따라 
 reducer라는 것은 redux의 요소이다.
 
 reducer는 현재 state와 업데이트를 위해 필요한 정보를 담은 action 값을 전달 받아 새로운 상태를 반환하는 함수이다. reducer 함수에서 새로운 상태를 만들 때는 불변성을 지켜주어야 한다.
+
+- useMemo
+
+useMemo를 사용하면 함수형 컴포넌트 내부에서 발생하는 연산을 최적화할 수 있다.

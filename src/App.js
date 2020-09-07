@@ -4,6 +4,7 @@ import "./App.css";
 import Counter from "./Counter";
 import Info from "./Info";
 import ContextSample from "./useContext";
+import Average from "./Average";
 
 const Container = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ function App() {
       <Counter />
       <Info />
       <ContextSample />
+      <Average />
     </Container>
   );
 }
