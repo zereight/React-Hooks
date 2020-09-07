@@ -1,13 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
+import styled from "styled-components";
 import "./App.css";
 import Counter from "./Counter";
+import Info from "./Info";
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <Counter />
-    </div>
+      <Info />
+    </Container>
   );
 }
 
